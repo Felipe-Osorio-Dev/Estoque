@@ -12,10 +12,13 @@
         <menus>
           <Menu mnemonicParsing="false" text="Cadastrar">
             <items>
-              <MenuItem fx:id="registerProduct" mnemonicParsing="false" onAction="#onClick" text="Produto" />
+              <MenuItem fx:id="registerProduct" mnemonicParsing="false" onAction="#navigateToRegister" text="Produto" />
             </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="Pesquisar" />
+          <Menu mnemonicParsing="false" text="Gerenciar">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#navigateToProduct" text="Produtos" />
+               </items></Menu>
         </menus>
          <BorderPane.margin>
             <Insets bottom="30.0" />
