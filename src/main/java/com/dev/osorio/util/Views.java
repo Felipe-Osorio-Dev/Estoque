@@ -2,9 +2,9 @@ package com.dev.osorio.util;
 
 public enum Views {
 
-    MAIN_PANE("mainPane", "views/MainPane.fxml"),
-    REGISTER("register", "views/RegisterProduct.fxml"),
-    PRODUCT("product", "views/Product.fxml"),
+    MAIN_PANE("mainPane", "views/main/MainPane.fxml"),
+    REGISTER("register", "views/register/Register.fxml"),
+    PRODUCT("product", "views/product/Product.fxml"),
     DETAILS("details",  "views/ProductDetails.fxml"),;
 
     private final String viewName;
